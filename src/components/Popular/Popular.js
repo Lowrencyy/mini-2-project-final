@@ -1,7 +1,8 @@
 import { useEffect , useState} from "react";
-// import styled from "styled-components";
+
 import { Splide , SplideSlide } from "@splidejs/react-splide";
 import '@splidejs/react-splide/css';
+//eslint-disable-next-line
 import App from "../../App.css";
 import { Link } from "react-router-dom";
 
