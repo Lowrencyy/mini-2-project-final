@@ -1,0 +1,121 @@
+/* .text-center{
+  text-align: center;
+  font-family: 'Alkatra';
+  padding-bottom: 20px;
+  font-size: 32px;
+  opacity: 0.75;
+	
+} */
+
+.Wrapper{ 
+  /* margin: 4rem 0rem; */
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.Card{
+  min-height: 18rem;
+  border-radius:18rem;
+  overflow: hidden;
+  
+}
+
+.popularImg{ 
+  border-radius: 2rem;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.popularP{
+  position: absolute;
+  z-index: 10;
+  left: 0%;
+  bottom: 0%;
+  transform: translate(-50% -20%);
+  color:white;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playpen Sans',sans-serif;
+}
+
+.Gradient {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+ background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0.75,0.75));
+}
+
+/* vegetarian section  */
+
+.Wrapper-veggies{ 
+  /* margin: 4rem 0rem; */
+  margin:20px
+}
+
+.Card-veggies{
+  min-height: 23rem;
+  border-radius:20rem;
+  overflow: hidden;
+}
+
+.veggiesImg{ 
+  border-radius: 3rem;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.veggiesP{
+  position: absolute;
+  z-index: 10;
+  left: 0%;
+  bottom: 0%;
+  transform: translate(-50% -20%);
+  color:white;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playpen Sans',sans-serif;
+}
+
+.Gradient-veggies {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+ background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0.75,0.75));
+}
+
+
+.List {
+  display: flex;
+  justify-content: center;
+  margin:2rem 0rem;
+}
+
+/* border radius  */
+
+.br-25{
+  border-radius: 25px;
+}
