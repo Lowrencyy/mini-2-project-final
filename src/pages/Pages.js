@@ -4,6 +4,7 @@ import Cuisine from './Cuisine';
 import Searched from '../components/Search/Searched';
 import Recipe from './Recipe';
 import {Route , Routes} from 'react-router-dom';
+import AboutUs from './AboutUs';
 
 function Pages() {
   return (
@@ -13,6 +14,7 @@ function Pages() {
        <Route path='/cuisine/:type' element= {<Cuisine/>}/>
        <Route path='/searched/:search' element={<Searched/>}/>
        <Route path='/recipe/:name' element={<Recipe/>} />
+       <Route path='/AboutUs' element={<AboutUs/>}/>
     </Routes>
    
   )

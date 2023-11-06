@@ -32,7 +32,7 @@ function Header() {
         <NavLink to="/" className={({isActive}) => isActive ? activeClass : inActiveClass}  end >Home</NavLink>
       </li>
       <li>
-        <NavLink to="/About-Us" className={({isActive}) => isActive ? activeClass : inActiveClass}>About</NavLink>
+        <NavLink to="/AboutUs" className={({isActive}) => isActive ? activeClass : inActiveClass}>About</NavLink>
       </li>
       <li>
         <NavLink to="/Our-Team" className={({isActive}) => isActive ? activeClass : inActiveClass}>Our Team</NavLink>
