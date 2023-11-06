@@ -37,7 +37,7 @@ useEffect(() => {
           
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img className="br-25" src={details.image} alt="ITEM-IMAGE" />
+            <img className="br-25" src={details.image} alt='hello world' />
              </div>                
         </div>
 
