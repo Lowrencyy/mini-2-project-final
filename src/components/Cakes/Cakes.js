@@ -9,9 +9,9 @@ import { Link } from "react-router-dom";
 
 // const apiKey = '974fbe5df41640ca82e759fade2e0b46'
 
-function Veggie() {
+function Cakes() {
  
-    const [veggies , setVeggies ] = useState([]);
+    const [cakes , setCakes ] = useState([]);
 
     
     useEffect (() => {
@@ -19,16 +19,16 @@ function Veggie() {
     },[]);
     const getVeggies = async () => {
 
-        const check = localStorage.getItem('cakess');
+        const check = localStorage.getItem('cakesss');
 
         if(check) {
-            setVeggies(JSON.parse(check));
+            setCakes(JSON.parse(check));
         } 
         else {  
         const api = await fetch (`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=6&tags=cakes`);  
         const data = await api.json();
-        localStorage.setItem('cakess' , JSON.stringify(data.recipes));
-        setVeggies(data.recipes);
+        localStorage.setItem('cakesss' , JSON.stringify(data.recipes));
+        setCakes(data.recipes);
         console.log(data.recipes);
         }       
     };
@@ -49,7 +49,7 @@ function Veggie() {
 
                 }}>
 
-                {veggies.map((recipe) => {
+                {cakes.map((recipe) => {
                     return(
                         <SplideSlide key={recipe.id}>
                             <div className="Card-veggies">
@@ -71,4 +71,4 @@ function Veggie() {
   )
 }
 
-export default Veggie;
+export default Cakes;
